@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>JS Buổi 4</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- MATERIAL DESIGN ICONIC FONT -->
+	<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+
+	<!-- STYLE CSS -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<!-- Bài 1 -->
+	<div class="wrapper">
+		<div class="inner">
+			<!-- <form action=""> -->
+			<h3>Bài 1</h3>
+			<p>Nhập vào 3 số nguyên. Xuất 3 số theo thứ tự tăng dần</p>
+			<label class="form-group">
+				<input id="soThuNhat" type="text" class="form-control" required>
+				<span>Số thứ 1</span>
+				<span class="border"></span>
+			</label>
+			<label class="form-group">
+				<input id="soThuHai" type=" text" class="form-control" required>
+				<span for="">Số thứ 2</span>
+				<span class="border"></span>
+			</label>
+			<label class="form-group">
+				<input id="soThuBa" type="text" class="form-control" required>
+				<span for="">Số thứ 3</span>
+				<span class="border"></span>
+			</label>
+
+			<button id="btn-SapXep">Sắp xếp
+				<i class="zmdi zmdi-arrow-right"></i>
+			</button>
+			<!-- </form> -->
+			<div id="ketqua-XapSep">
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Bài 2 -->
+	<div class="wrapper">
+		<div class="inner">
+			<!-- <form action=""> -->
+			<h3>Bài 2</h3>
+			<p>Chào hỏi các thành viên</p>
+
+			<P>Bạn là?</P>
+			<label class="form-group">
+				<select style="background-color: black; width: 100%;" name="" id="thanhVien">
+					<option>Chọn thành viên</option>
+					<option value="B">Bố</option>
+					<option value="M">Mẹ</option>
+					<option value="A">Anh Trai</option>
+					<option value="E">Em Gái</option>
+				</select>
+			</label>
+
+			<button id="btn-Chao">Gửi lời chào
+				<i class="zmdi zmdi-arrow-right"></i>
+			</button>
+
+			<div class="ketQua" id="ketQua-Chao"></div>
+			<!-- </form> -->
+		</div>
+	</div>
+
+
+	<!-- Bài 3 -->
+	<div class="wrapper">
+		<div class="inner">
+			<!-- <form action=""> -->
+			<h3>Bài 3</h3>
+			<p>Nhập vào 3 số nguyên. Đếm số chẵn và số lẻ</p>
+			<label class="form-group">
+				<input id="soThu1" type="text" class="form-control" required>
+				<span>Số thứ 1</span>
+				<span class="border"></span>
+			</label>
+			<label class="form-group">
+				<input id="soThu2" type="text" class="form-control" required>
+				<span for="">Số thứ 2</span>
+				<span class="border"></span>
+			</label>
+			<label class="form-group">
+				<input id="soThu3" type="text" class="form-control" required>
+				<span for="">Số thứ 3</span>
+				<span class="border"></span>
+			</label>
+
+			<button id="btm-Dem">Đếm
+				<i class="zmdi zmdi-arrow-right"></i>
+			</button>
+
+			<!-- </form> -->
+			<div class="ketQua" id="ketQua-Dem"></div>
+		</div>
+	</div>
+
+
+	<!-- Bài 4 -->
+	<div class="wrapper">
+		<div class="inner">
+			<!-- <form action=""> -->
+			<h3>Bài 4</h3>
+			<p>Nhập vào 3 cạnh của tam giác. Cho biết đây là tam giác gì?</p>
+			<label class="form-group">
+				<input id="canhThu1" type="text" class="form-control" required>
+				<span>Cạnh thứ 1</span>
+				<span class="border"></span>
+			</label>
+			<label class="form-group">
+				<input id="canhThu2" type="text" class="form-control" required>
+				<span for="">Cạnh thứ 2</span>
+				<span class="border"></span>
+			</label>
+			<label class="form-group">
+				<input id="canhThu3" type="text" class="form-control" required>
+				<span for="">Cạnh thứ 3</span>
+				<span class="border"></span>
+			</label>
+
+			<button id="kiemTra">Kiểm tra
+				<i class="zmdi zmdi-arrow-right"></i>
+			</button>
+			<!-- </form> -->
+			<div class="ketQua" id="ketQua-KiemTra"></div>
+		</div>
+	</div>
+
+	<script src="./main.js"></script>
+</body>
+
+</html>
